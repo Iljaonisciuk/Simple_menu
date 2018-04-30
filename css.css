@@ -1,0 +1,89 @@
+.open .ikonka{
+    color:white;
+    transform: rotate(180deg);
+}
+.ikonka{
+    color:#FE8663;
+    text-align: right;
+    font-size:20px;
+    float:right;
+}
+
+img{
+    width:50px;height:50px;padding-left:10px;padding-right:10px;
+}
+#previev{
+    font-size:20px;
+    text-align:center;
+    padding-bottom:25px;
+}
+}
+body{    background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+    background: linear-gradient(to right, #25c481, #25b7c4);}
+.accordionWrapper{padding:30px;background:#fff;width:35%;
+box-sizing:border-box;position:absolute;top: 50%; left: 50%;
+margin-right: -50%;transform: translate(-50%, -50%) }
+.accordionItem{
+    float:left;
+    display:block;
+    width:100%;
+    box-sizing: border-box;
+    font-family:'Open-sans',Arial,sans-serif;
+}
+.accordionItemHeading{
+    cursor:pointer;
+    margin:0px 0px 10px 0px;
+    padding:10px;
+    background:#c1d7d7;
+    color:#fff;
+    width:100%;
+ border-radius: 25px;
+box-sizing: border-box;
+}
+.accordionItemHeading-black{
+    cursor:pointer;
+    margin:0px 0px 10px 0px;
+    padding:10px;
+    background:#686765;
+    color:#fff;
+    width:100%;
+border-radius: 25px;
+ box-sizing: border-box;
+}
+.close .accordionItemContent{
+    height:0px;
+    transition:height 2s ease-out;
+    -webkit-transform: scaleY(0);
+    -o-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    transform: scaleY(0);
+    float:left;
+    display:block; 
+    
+}
+.open .accordionItemContent{
+        padding: 20px;
+    background-color: #E7E7E7;
+    border-radius: 25px;
+    width: 100%;
+    margin: 0px 0px 10px 0px;
+    display:block;
+    -webkit-transform: scaleY(1);
+    -o-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    transform: scaleY(1);
+    -webkit-transition: -webkit-transform 0.4s ease-out;
+    -o-transition: -o-transform 0.4s ease;
+    -ms-transition: -ms-transform 0.4s ease;
+    transition: transform 0.8s ease;
+        box-sizing: border-box;
+
+}
+.open .accordionItemHeading{
+    margin:0px;
+    background-color: #FE8663;   
+}
+.open .accordionItemHeading-black{
+    margin:0px;
+    background-color: #FE8663;  
+}
